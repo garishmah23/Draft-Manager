@@ -85,7 +85,8 @@ http://localhost:3000
 
 
 
-![Draft Manager UI]c:\Users\hp\Pictures\Screenshots\Screenshot 2026-07-17 121312.png
+<img width="1918" height="967" alt="Screenshot 2026-07-17 121312" src="https://github.com/user-attachments/assets/a506ade6-e2af-45f4-87f0-39cc98ef3616" />
+
 
 ---
 
