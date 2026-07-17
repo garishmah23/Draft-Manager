@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    135deg,
+    #f8fafc,
+    #cbd5e1,
+    #94a3b8,
+    #475569
+  );
+  min-height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+}
+
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.15);
+}
+
+h2 {
+  color: #334155;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #64748b;
+}
+
+textarea {
+  height: 120px;
+  resize: none;
+}
+
+button {
+  background: linear-gradient(135deg, #475569, #334155);
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.draft {
+  background: #f8fafc;
+  border-left: 6px solid #475569;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.actions button {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
